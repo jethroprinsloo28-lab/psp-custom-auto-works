@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSP Custom Auto Works | Pretoria</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
+                  url('https://source.unsplash.com/random/1600x900/?car,workshop,modified') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    .hero-content {
+      max-width: 800px;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3.8rem;
+      margin: 0 0 10px 0;
+      color: #ff0000;
+      text-shadow: 3px 3px 15px rgba(0,0,0,0.9);
+    }
+    .tagline {
+      font-size: 1.6rem;
+      margin-bottom: 30px;
+      font-weight: 300;
+      color: #ff4d4d;
+    }
+    .domain {
+      font-size: 1.1rem;
+      color: #ff4d4d;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .btn {
+      background: #ff0000;
+      color: white;
+      padding: 15px 35px;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background: #cc0000;
+      transform: scale(1.05);
+    }
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+      color: #ff0000;
+      font-size: 2.5rem;
+      margin-bottom: 50px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 35px;
+      border-radius: 12px;
+      text-align: center;
+      border: 2px solid #330000;
+    }
+    .card h3 {
+      color: #ff0000;
+      font-size: 1.6rem;
+    }
+    .price {
+      font-size: 1.4rem;
+      color: #ff4d4d;
+      font-weight: bold;
+    }
+    .phone {
+      font-size: 1.6rem;
+      color: #ff0000;
+      font-weight: bold;
+    }
+    .note {
+      text-align: center;
+      font-size: 1.3rem;
+      color: #ff0000;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+    footer {
+      background: #000000;
+      color: #bbb;
+      text-align: center;
+      padding: 50px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <div class="hero-content">
+      <h1>PSP CUSTOM AUTO WORKS</h1>
+      <p class="tagline">Body Work • Mag Repairs • Welding • Spray Painting for Mags</p>
+      <p style="font-size:1.3rem;">Quality auto repairs in Silverton, Pretoria</p>
+      <p class="domain">www.pspautoworks.com</p>
+      <a href="#contact" class="btn">Get a Quote Today</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section style="background:#111;">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:750px; margin:0 auto; font-size:1.15rem;">
+      PSP Custom Auto Works is your trusted workshop in Silverton, Pretoria. 
+      We specialise in panel beating, body work, mag repairs, welding and spray painting for mags. 
+      Honest work at fair prices.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section>
+    <h2>Our Services & Prices</h2>
+    <div class="info-grid">
+      <div class="card">
+        <h3>Body Work & Panel Beating</h3>
+        <p>Dent repairs and straightening</p>
+      </div>
+      <div class="card">
+        <h3>Welding</h3>
+        <p>Professional welding repairs</p>
+        <p class="price">R500</p>
+      </div>
+      <div class="card">
+        <h3>Spray Painting for Mags</h3>
+        <p>Colour matching and full spray for alloy wheels</p>
+        <p class="price">From R500</p>
+      </div>
+      <div class="card">
+        <h3>Mag Repairs</h3>
+        <p>Alloy wheel repairs and refurbishing</p>
+        <p class="price">R450</p>
+      </div>
+    </div>
+
+    <!-- Note at the bottom -->
+    <p class="note">
+      Prices range from damage to mag
+    </p>
+  </section>
+
+  <!-- Contact Info -->
+  <section style="background:#111;" id="contact">
+    <h2>For More Information</h2>
+    <div class="info-grid">
+      <div class="card">
+        <h3>📍 Location</h3>
+        <p>997 Bleshoender Street<br>
+        Silverton, Pretoria<br>
+        Gauteng</p>
+      </div>
+      <div class="card">
+        <h3>🕒 Opening Hours</h3>
+        <p>Monday – Friday: 9:00 AM – 5:00 PM<br>
+        Saturday & Sunday: Closed</p>
+      </div>
+      <div class="card">
+        <h3>📞 Call or WhatsApp</h3>
+        <p class="phone">082 787 7064</p>
+        <p>For quotes, bookings and more information</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>PSP Custom Auto Works</strong> • Body Work • Mag Repairs • Welding • Spray Painting for Mags</p>
+    <p>997 Bleshoender Street, Silverton, Pretoria</p>
+    <p>www.pspautoworks.com</p>
+    <p>Call/WhatsApp: <strong>082 787 7064</strong></p>
+    <p>&copy; 2026 PSP Custom Auto Works. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
